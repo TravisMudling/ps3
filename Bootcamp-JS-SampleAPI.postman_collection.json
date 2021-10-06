@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "df2c931c-d369-45ae-8a59-32fe76dc1bf8",
+		"name": "Bootcamp-JS-SampleAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pw-uiewg-walletapp.firebaseio.com/products.json",
+					"protocol": "https",
+					"host": [
+						"pw-uiewg-walletapp",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"products.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pw-uiewg-walletapp.firebaseio.com/products/2.json",
+					"protocol": "https",
+					"host": [
+						"pw-uiewg-walletapp",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"products",
+						"2.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
